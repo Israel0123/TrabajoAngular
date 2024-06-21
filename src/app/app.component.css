@@ -1,0 +1,66 @@
+/* src/app/app.component.css */
+
+/* Estilos para el encabezado */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+/* Estilos para el contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.logout-icon {
+  width: 35px;
+  height: 35px;
+  margin-left: 1200px;
+  cursor: pointer;
+  padding: 1px 1px;
+}

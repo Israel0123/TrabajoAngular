@@ -1,0 +1,27 @@
+<div class="user-list-container">
+  <h2>Listado de Usuarios</h2>
+  <button (click)="createUser()">Crear Usuario</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Rol</th>
+        <th>Fecha de Alta</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.role }}</td>
+        <td>{{ user.createdAt }}</td>
+        <td class="actions">
+          <button (click)="editUser(user.email)">Editar</button>
+          <button (click)="deleteUser(user.email)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

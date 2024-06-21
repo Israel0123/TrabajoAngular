@@ -1,0 +1,86 @@
+/* Contenedor del listado de usuarios */
+.user-list-container {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del listado de usuarios */
+.user-list-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Botón de crear usuario */
+.user-list-container button {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.user-list-container button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para la tabla */
+.user-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list-container th,
+.user-list-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-list-container th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.user-list-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Centrar contenido de las celdas de acciones */
+.user-list-container td.actions {
+  text-align: center;
+}
+
+/* Botones de acción */
+.user-list-container td button {
+  margin: 5px;
+  padding: 5px 10px;
+  width: 80px; /* Ancho fijo para ambos botones */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.user-list-container td button:hover {
+  background-color: #45a049;
+}
+
+.user-list-container td button:last-child {
+  background-color: #f44336;
+}
+
+.user-list-container td button:last-child:hover {
+  background-color: #e53935;
+}
